@@ -5,7 +5,7 @@ body{
  font-style: italic;
 }
 
-#Jewellery{
+ul{
     column-count: 5;
     justify-content: space-between;
 }
@@ -13,3 +13,8 @@ body{
 /*.itemsInfo{
 
 }*/
+
+form{
+    justify-content: center;
+    background-color: aqua;
+}
