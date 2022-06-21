@@ -1,5 +1,3 @@
-const listHolder = document.getElementById('Jewellery')
-document.addEventListener('DOMContentLoaded'),()=>
-{
-
-}
+document.addEventListener('mouseover', (event) => {
+    console.log('DOM fully loaded and parsed');
+});
