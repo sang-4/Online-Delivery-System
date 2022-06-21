@@ -1,0 +1,15 @@
+body{
+ background-color: aquamarine;
+ font-size: medium;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-style: italic;
+}
+
+#Jewellery{
+    column-count: 5;
+    justify-content: space-between;
+}
+
+/*.itemsInfo{
+
+}*/
