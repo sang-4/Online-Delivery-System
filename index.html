@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" href="./style.css">
-	<title>GiftUs Glam</title>
-</head>
-<body>
-    <section id="Jewellery">
-	<div class="wrapper">
-			<ul>
-				<button type="button">Earings</button>
-				<button type="button">Necklaces</button>
-				<button type="button">Unisex Watches</button>
-				<button type="button">Rings</button>
-			</ul>
-    </div>
-    </section>
+    <head>
+        <title>Phoenix</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+    <header>
+        <div class="container">
+        <h1> Focus Distributors </h1>
+        <p>Hello and welcome to our online store!<br>Here's what we have in store for you</p>
+        </div>
+    </header>
 
-    <section id="Description">
-        <div class="itemsInfo">
-            <p>About product</p>
-            <!--Output the type of available products and a brief description when the general class is clicked on-->
-
+    <section class="items">
+        <div  class="watches">
+            <p>Unisex watches</p>
+            <div class="wearables">
+                <p>Rings</p>
+                <div class="laces">
+                    <p>Necklaces</p>
+                    <div class="earings">
+                        <p>Earrings</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="price">
-        <div class="availability">
-            <p>Item in stock</p>
-            <!-- item price and available pieces will be displayed in here-->
+    <section class= "features">
+        <div class="container">
+            <div class="feature">
+                <p>Item description</p>
+                <p>Remaining pieces</p>
+                <p>Price</p>
+            </div>    
         </div>
     </section>
+    
 
-    <section>
-        <div class="Contact">
-            <p>Contact Us</p>
-            <form>
+    <footer>
+        <div class="container">
+        <p> Get in touch</p>
+        <form>
+            <div>
                 <label for="name">Name</label>
                 <input type="text" id="name" value="asan_gk">
                 <label for="contactemail">Email</label>
                 <input type="text" id="contactemail" value="user@email.com">
+            </div>
+            <div>
                 <label for="input">Message</label>
                 <input  type="text" id="input" value="Your message here">
                 <input type="Submit" id="send">
-            </form>
+            </div>
+        </form>
+        <p> © focusdistributors 2022</p>
         </div>
-    </section>
-
-    <section>
-        <div class="footer"> 
-            <p>All Rights Reserved<br>Thanks for shopping with us!</p>
-        </div>
-    </section>
-<script rel="javascriptfile" href="./main.js"></script>
-</body>
+    </footer>
+        
+    </body>
 </html>

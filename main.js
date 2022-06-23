@@ -1,3 +1,1 @@
-document.addEventListener('mouseover', (event) => {
-    console.log('DOM fully loaded and parsed');
-});
+//working on an API before I begin on this
