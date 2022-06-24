@@ -7,56 +7,61 @@
     <body>
     <header>
         <div class="container">
-        <h1> Focus Distributors </h1>
-        <p>Hello and welcome to our online store!<br>Here's what we have in store for you</p>
-        </div>
+        <h1> Focus Technologies </h1>
+        <p>Hello and Welcome to our page! With this site you can search and view<br> different assets and their trading volume all at a go</p>
+        <input type="search" id="searchbar">
+        <input type="submit" placeholder="search" id="search" value="search">
+    </div>
+    <div class="error">
+        <p>Error: No results found!</p>
+    </div>
     </header>
 
-    <section class="items">
-        <div  class="watches">
-            <p>Unisex watches</p>
-            <div class="wearables">
-                <p>Rings</p>
-                <div class="laces">
-                    <p>Necklaces</p>
-                    <div class="earings">
-                        <p>Earrings</p>
-                    </div>
+    <section class="cryptoAssets">
+        <!-- <div  class="BTC">
+            <p>Symbol</p>
+            <div class="ETH">
+                <p>Price</p>
+                <div class="USDC">
+                    <p>Supply</p>
                 </div>
             </div>
+        </div> -->
+        <div class="header">
+            <p>Symbol</p>
+            <p>Price</p>
+            <p>Supply</p>
+        </div>
+        <div class="data">
+            <p></p>
+            <p></p>
+            <p></p>
         </div>
     </section>
-
-    <section class= "features">
-        <div class="container">
-            <div class="feature">
-                <p>Item description</p>
-                <p>Remaining pieces</p>
-                <p>Price</p>
-            </div>    
-        </div>
-    </section>
-    
 
     <footer>
-        <div class="container">
-        <p> Get in touch</p>
-        <form>
-            <div>
-                <label for="name">Name</label>
-                <input type="text" id="name" value="asan_gk">
-                <label for="contactemail">Email</label>
-                <input type="text" id="contactemail" value="user@email.com">
+            <div class="_form_wrapper">
+                <form action="" method="post">
+                    <h2>Get In touch</h2>
+                    <div class="input">
+                        <label>Name</label>
+                        <input type="text" placeholder="name">
+                    </div>
+                    <div class="input">
+                        <label>Email</label>
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="input">
+                        <label>Message</label>
+                        <input type="text" placeholder="Message">
+                    </div>
+                    <div class="_input">
+                        <button type="submit" class="_submit_btn">Submit</button>
+                    </div>
+                </form>
             </div>
-            <div>
-                <label for="input">Message</label>
-                <input  type="text" id="input" value="Your message here">
-                <input type="Submit" id="send">
-            </div>
-        </form>
-        <p> © focusdistributors 2022</p>
-        </div>
+        <p> © focustech 2022</p>
     </footer>
-        
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
